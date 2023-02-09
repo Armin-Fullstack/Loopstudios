@@ -8,3 +8,10 @@
     background-size: cover;
     
 }
+
+@media(max-width: 576px){
+    #hero {
+    background-image: url("../Images/mobile/image-hero.jpg");
+    background-position: center;
+}
+}

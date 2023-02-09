@@ -2214,6 +2214,13 @@ video {
   background-size: cover;
 }
 
+@media(max-width: 576px){
+  #hero {
+    background-image: url("../Images/mobile/image-hero.jpg");
+    background-position: center;
+  }
+}
+
 @media (min-width: 480px) {
   .sm\:container {
     width: 100%;

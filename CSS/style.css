@@ -2276,6 +2276,22 @@ video {
   transform: translateY(14px);
 }
 
+.open {
+  transform: rotate(90deg);
+}
+
+.open .hamburger-top {
+  transform: rotate(45deg) translateY(6px) translateX(6px)
+}
+
+.open .hamburger-middle {
+  display: none;
+}
+
+.open .hamburger-bottom {
+  transform: rotate(-45deg) translateY(6px) translateX(-6px)
+}
+
 @media (min-width: 480px) {
   .sm\:container {
     width: 100%;
@@ -2389,5 +2405,3 @@ video {
     }
   }
 }
-  
-  
